@@ -1,0 +1,48 @@
+{
+    "id": "decoexample",
+    "versionid": "decoexample-0.0.1",
+    "name": "Decocraft example",
+    "description": "An example for a modpackjson modpack, with one mod.",
+    "author": "tilera",
+    "dependencies": {
+        "mods": [{
+            "versionid": "dc-2.4.2",
+            "name": "Decocraft 2",
+            "version": "2.4.2",
+            "file": "https://minecraft.curseforge.com/projects/decocraft2/files/2414535/download",
+            "mcverson": "1.7.10",
+            "abbrev": "dc2",
+            "modpackjson": {
+                "version": "1.0",
+                "type": "modversion"
+            },
+            "meta": {
+                
+            }
+        }],
+        "jar":[{
+            "versionid": "forge-10.13.4.1614",
+            "name": "Forge",
+            "file": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
+            "mcversion": "1.7.10",
+            "version": "10.13.4.1614",
+            "modpackjson": {
+                "version": "1.0",
+                "type": "modloader"
+            },
+            "meta": {
+                
+            }
+        }]
+    },
+
+    "mcversion": "1.7.10",
+    "version": "0.0.1",
+    "modpackjson": {
+        "version": "1.0",
+        "type": "modpack"
+    },
+    "meta": {
+
+    }
+}
