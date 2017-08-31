@@ -1,0 +1,6 @@
+{
+    "modpackjson": {
+        "version": "<here comes the version of modpackjson.>",
+        "type": "<here comes the type of what is stored in modpackjson.>"
+    }
+}
