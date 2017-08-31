@@ -3,7 +3,7 @@
     "versionid": "decoexample-0.0.1",
     "name": "Decocraft example",
     "description": "An example for a modpackjson modpack, with one mod.",
-    "author": "tilera",
+    "author": "sdieggidhr",
     "dependencies": {
         "mods": [{
             "versionid": "dc-2.4.2",
