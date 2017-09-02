@@ -1,0 +1,30 @@
+{
+    "id": "<here comes the id of the modpack>",
+    "versionid": "<here comes the version id ob the modpack (<id>-<version>)>",
+    "name": "<here comes the name of the modpack>",
+    "description": "<here comes the modpack description>",
+    "author": "<here comes the name of the modpack creator>",
+    "dependencies": {
+        "mods": ["<here comes all mods includet in the modpack as a modversion json structure>"],
+        "modloader":["<here comes all modloaders of the modpack as a modloader json structure>"]
+    },
+
+    "mcversion": "<here comes the minecraft version of the modpack>",
+    "version": "<here comes the version of the modpack>",
+    "modpackjson": {
+        "version": "1.1",
+        "type": "modpack"
+    },
+    "config":["<here come config structure element types>"],
+    "platforms":{
+        "curse": {
+            //placeholder for next update
+        },
+        "technic":{
+            //placeholder for next update
+        }
+    },
+    "meta": {
+        //here you can store additional informations about the modpack in a json syntax
+    }
+}
