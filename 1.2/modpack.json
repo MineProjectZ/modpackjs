@@ -1,0 +1,61 @@
+{
+    "id": "<here comes the id of the modpack>",
+    "versionid": "<here comes the version id ob the modpack (<id>-<version>)>",
+    "name": "<here comes the name of the modpack>",
+    "description": "<here comes the modpack description>",
+    "author": "<here comes the name of the modpack creator>",
+    "dependencies": {
+        "mods": ["<here comes all mods includet in the modpack as a modversion json structure>"],
+        "modloader":["<here comes all modloaders of the modpack as a modloader json structure>"]
+    },
+
+    "mcversion": "<here comes the minecraft version of the modpack>",
+    "version": "<here comes the version of the modpack>",
+    "modpackjson": {
+        "version": "1.2",
+        "type": "modpack"
+    },
+    "config":["<here come config structure element types>"],
+    "platforms":{
+        "curse": {
+            "projectid": "<the curse projectid, if your modpack is on curse>",
+            "fileid": "<the curse fileid, if your modpack is on curse>",
+            "zip": "<here come the link to the curse modpack zip file, if you have one>",
+            "manifest": {//here comes the manifest.json of the curse modpack (optional)
+                "minecraft": {
+                  "version": "<minecraft version>",
+                  "modLoaders": [
+                    {
+                      "id": "<modloader curse id>",
+                      "primary": true
+                    }
+                  ]
+                },
+                "manifestType": "minecraftModpack",
+                "manifestVersion": 1,
+                "name": "<curse modpack name>",
+                "version": "<curse version>",
+                "author": "<curse author name>",
+                "files": [
+                    //curse mod objects
+                ],
+                "overrides": "overrides"
+              }
+        },
+        "technic":{
+            "api": "<here comes the technic api url if you have one (http://api.technicpack.net/modpack/MODPACK-NAME-HERE)>",
+            "zip": "<here comes the link to the technic modpack zip file if you have one(the file url, that you also set, when you create a technic launcher modpack)>"
+        },
+        "gmjsoni":{
+            "giid": "<global id initiatet by the gmjsoni. ignore this!>",
+            "gmjsonu": "<the gmjson username of the modpack dev. ignore this!>"
+        }
+        //you can add your platform here, to add platform required data
+    },
+    "meta": {
+        "description": "<link to a html description file>",
+        "image": "<link to the modpack logo>",
+        "permissions": "<link to a html permissions file (optional, only required for some services)>"
+        //here you can store additional informations about the modpack in a json syntax
+    }
+}
