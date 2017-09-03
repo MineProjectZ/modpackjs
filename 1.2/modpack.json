@@ -12,11 +12,14 @@
     "mcversion": "<here comes the minecraft version of the modpack>",
     "version": "<here comes the version of the modpack>",
     "modpackjson": {
-        "version": "1.1",
+        "version": "1.2",
         "type": "modpack"
     },
     "config":["<here come config structure element types>"],
     "meta": {
+        "description": "<link to a html description file>",
+        "image": "<link to the modpack logo>",
+        "permissions": "<link to a html permissions file (optional, only required for some services)>"
         //here you can store additional informations about the modpack in a json syntax
     }
 }
