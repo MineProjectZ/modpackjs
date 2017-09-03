@@ -13,7 +13,8 @@
     "version": "<here comes the version of the modpack>",
     "modpackjson": {
         "version": "1.2",
-        "type": "modpack"
+        "type": "modpack",
+        "allowredirects": false //set to true, if the files requires redirects
     },
     "config":["<here come config structure element types>"],
     "meta": {

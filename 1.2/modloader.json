@@ -6,7 +6,8 @@
     "version": "<here comes the version of the modloader>",
     "modpackjson": {
         "version": "1.2",
-        "type": "modloader"
+        "type": "modloader",
+        "allowredirects": false //set to true, if the files requires redirects
     },
     "meta": {
         //here you can store additional informations about the mod in a json syntax

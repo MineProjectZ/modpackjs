@@ -7,7 +7,8 @@
     "abbrev": "<here comes the abbrev of the mod>",
     "modpackjson": {
         "version": "1.2",
-        "type": "modversion"
+        "type": "modversion",
+        "allowredirects": false //set to true, if the files requires redirects
     },
     "meta": {
          //here you can store additional informations about the mod in a json syntax

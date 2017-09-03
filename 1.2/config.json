@@ -1,5 +1,6 @@
 {
     "path": "<here comes the path, where the file should be saved. example: ./config/example.conf>",
     "raw": "<here comes the config file, as a json string (optional)>",
-    "file": "<here comes the link to the config file>"
+    "file": "<here comes the link to the config file>",
+    "allowredirects": false //set to true, if the files requires redirects
 }
