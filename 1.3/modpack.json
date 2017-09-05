@@ -6,7 +6,8 @@
     "author": "<here comes the name of the modpack creator>",
     "dependencies": {
         "mods": ["<here comes all mods includet in the modpack as a modversion json structure>"],
-        "modloader":["<here comes all modloaders of the modpack as a modloader json structure>"]
+        "modloader":["<here comes all modloaders of the modpack as a modloader json structure>"],
+        "submodpacks":["<here comes all submodpacks of the modpack as a modpack json structure(submodpacks cant have this area)>"]
     },
 
     "mcversion": "<here comes the minecraft version of the modpack>",

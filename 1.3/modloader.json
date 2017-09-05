@@ -1,0 +1,14 @@
+{
+    "versionid": "<here comes the version id ob the modloader>",
+    "name": "<here comes the name of the modloader>",
+    "filelink": "<here comes the link to the modloader file>",
+    "mcversion": "<here comes the version of the modvloader>",
+    "version": "<here comes the version of the modloader>",
+    "modpackjson": {
+        "version": "1.3",
+        "type": "modloader"
+    },
+    "meta": {
+        //here you can store additional informations about the mod in a json syntax
+    }
+}
